@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Noticia';
+        src : url('polices/NoticiaText-Regular.ttf') format('truetype');
+}
+
+body
+{
+    background-image: url('images/fond_jaune.png');
+    border: 1px black solid;
+    box-shadow: 3px 3px 3px black;
+}
+.date
+{
+    color: grey;
+}
+h1
+{
+    text-align: center;
+    font-family: 'Noticia', Arial, serif;
+}
+h1 + p
+{
+    text-align: center;
+}
+h2
+{
+    font-family: 'Noticia', Arial, serif; 
+}
