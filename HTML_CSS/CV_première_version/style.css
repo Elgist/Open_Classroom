@@ -5,9 +5,7 @@
 
 body
 {
-    background-image: url('images/fond_jaune.png');
-    border: 1px black solid;
-    box-shadow: 3px 3px 3px black;
+    background-color: whitesmoke;
 }
 .date
 {
@@ -25,4 +23,33 @@ h1 + p
 h2
 {
     font-family: 'Noticia', Arial, serif; 
+}
+
+#corps
+{
+    display: flex;
+}
+
+.imgcote
+{
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 550px;
+    width: 100px;
+}
+
+#experience
+{
+    width: 30%;
+    margin-right: 2%;
+}
+#competences
+{
+    width: 30%;
+    margin-right: 2%;
+}
+#formation
+{
+    width: 30;
+    margin-right: 2%;
 }
