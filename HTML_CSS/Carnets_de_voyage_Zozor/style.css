@@ -149,6 +149,8 @@ nav a:hover
     color: white;
     text-decoration: none;
 }
+/*Fin banniere*/
+/*Début section*/
 section
 {
     display: flex;
@@ -174,11 +176,65 @@ aside
 {
     display: flex;
     justify-content: space-between;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
-/*Fin banniere*/
-/*Début section*/
+#zozor, aside h2
+{
+    text-align: center;   
+}
 
+aside p
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#bulle
+{
+    position: relative;
+    left: -12px;
+    bottom: 50px;
+}
 /*Fin section*/
 /*Début footer*/
+footer
+{
+    background-image: url('images/separateur.png');
+    background-position: top;
+    background-repeat: repeat-x;
+}
+#contentfooter
+{
+    display: flex;
+    margin: 0;
+}
+#flechefooter
+{
+    text-align: center;
+}
+
+#tweet
+{
+    flex: 1;
+}
+#photos
+{
+    flex: 1;
+    margin-right: 10px;
+}
+#amis
+{
+    flex: 1;
+}
+#listeamis
+{
+    display: flex;
+    list-style-image: url('images/ico_liensexterne.png');
+}
+#listeamis a
+{
+    text-decoration: none;
+    color: #760001;
+}
 /*Fin footer*/
