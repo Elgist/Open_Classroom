@@ -238,3 +238,36 @@ footer
     color: #760001;
 }
 /*Fin footer*/
+
+/*Début gestion Media queries */
+@media all and (max-width: 1024px)
+{
+    #page
+    {
+        width: auto;
+    }
+
+    nav ul
+    {
+        flex-direction: column;
+    }
+    #banniere
+    {
+        display: none;
+    }
+
+    section
+    {
+        flex-direction: column;
+    }
+
+    #bulle
+    {
+       display: none;
+
+    }
+    #Reseaux
+    {
+        justify-content: space-around;
+    }
+}
