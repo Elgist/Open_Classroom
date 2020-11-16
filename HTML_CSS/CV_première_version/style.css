@@ -53,3 +53,32 @@ h2
     width: 30;
     margin-right: 2%;
 }
+
+/*Début Responsive design*/
+@media all and (max-width:1200px)
+{
+    .imgcote
+    {
+        display: none;
+    }
+    #corps
+    {
+        width: auto;
+        flex-direction: column;
+        margin: auto;
+    }
+    #experience
+    {
+        width: auto;
+
+    }
+    #competences
+    {
+        width: auto;
+
+    }
+    #formation
+    {
+        width: auto;
+    }
+}
